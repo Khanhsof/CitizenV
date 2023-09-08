@@ -4499,7 +4499,7 @@ CREATE TABLE IF NOT EXISTS `nhan_khau` (
   KEY `fk_ho` (`Tuyentren`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table citizenv.nhan_khau: ~14,607 rows (approximately)
+-- Dumping data for table citizenv.nhan_khau: ~14,734 rows (approximately)
 INSERT INTO `nhan_khau` (`Id`, `Tuyentren`, `Hoten`, `Ngaysinh`, `Gioitinh`, `Tongiao`, `Quoctich`, `Nghenghiep`, `Cmnd`, `Thuongtru`, `Tamtru`, `Trinhdo`) VALUES
 	('010101010201', '0101010102', 'Bùi Văn Hùng', '1987-05-26', '0', 'Không', 'Việt Nam', 'Nông dân', '001201011228', 'Xã Uxh - Huyện Ub -Tỉnh N', 'Xã Ggj - Huyện Rh -Tỉnh S', '10/12'),
 	('010101010202', '0101010102', 'Tạ Phương Thảo', '1989-07-27', '1', 'Không', 'Việt Nam', 'Giáo viên', '001201021228', 'Xã Hkt  - Huyện Nv -Tỉnh K', 'Xã Poh - Huyện Qt  -Tỉnh K', '10/12'),

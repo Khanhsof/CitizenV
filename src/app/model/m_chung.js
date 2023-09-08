@@ -7,6 +7,7 @@ class Chung {
 			connectionLimit: 100,
 			host: '127.0.0.1',
 			user: 'root',
+            port: '3306',
 			password: '21040709',
 			database: 'citizenv', //tên csdl
             multipleStatements: true,

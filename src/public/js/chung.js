@@ -73,11 +73,7 @@ function danhSachThanhVien() {
 
     div.className = "alert alert-success alert-dismissible";
     var info = "<button type='button' class='btn-close' data-bs-dismiss='alert'></button>"
-    info += "<h4>Nếu có bất kỳ câu hỏi nào xin vui lòng liên hệ với chúng tôi qua email 19020397@vnu.edu.vn</h4>"
-    info += "<h5>Danh sách tác giả:</h5>"
-    info += "<p>Tạ Viết Phương</p>"
-    info += "<p>Bùi Quang Trường</p>"
-    info += "<p>Trương Hoàng Tùng</p>"
+    info += "<h4>Nếu có bất kỳ câu hỏi nào xin vui lòng liên hệ với chúng tôi qua email 20020426@vnu.edu.vn</h4>"
     div.innerHTML = info;
 
     ds_loi.appendChild(div);
